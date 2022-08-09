@@ -9,7 +9,7 @@ spec:
   lifecycle: experimental
   owner: hungryman-team
   system: hungryman
-  dependsOn: 
+  dependsOn:
     - resource:hungryman-db
     - resource:hungryman-messaging
     - component:hungryman-search-proc
@@ -30,4 +30,4 @@ spec:
   owner: hungryman-team
   system: hungryman
   definition:
-    $text: http://hungryman.perfect300rock.com/api/availability/v3/api-docs/
+    $text: http://hungryman.hungryman.tap-tanzu.eng.vmware.com/api/availability/v3/api-docs/

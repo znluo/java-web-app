@@ -9,7 +9,7 @@ spec:
   lifecycle: experimental
   owner: hungryman-team
   system: hungryman
-  dependsOn: 
+  dependsOn:
     - resource:hungryman-messaging
 ---
 apiVersion: backstage.io/v1alpha1
@@ -26,4 +26,4 @@ spec:
   owner: hungryman-team
   system: hungryman
   definition:
-    $text: http://hungryman.perfect300rock.com/api/search/v3/api-docs/
+    $text: http://hungryman.hungryman.tap-tanzu.eng.vmware.com/api/search/v3/api-docs/
